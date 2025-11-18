@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Nut']
+
+roboflow:
+  workspace: yolo-kszd6
+  project: my-first-project-g79b3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-kszd6/my-first-project-g79b3/dataset/1

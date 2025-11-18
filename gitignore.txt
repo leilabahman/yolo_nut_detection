@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+
+# YOLO / Results
+results/
+dataset/train/images/
+dataset/train/labels/
+dataset/valid/images/
+dataset/valid/labels/
+src/runs/
+
+
+# Weights
+*.pt
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# IDEs
+.vscode/
+.idea/
+
+
+# Logs
+*.log
